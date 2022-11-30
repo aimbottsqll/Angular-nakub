@@ -1,0 +1,6 @@
+<div class="component-b">
+  <ul *ngFor="let item of list">
+    <li>{{item.name}} <button (click)="removeTask(item.id)">Remove Task</button></li>
+  </ul>
+
+</div>
